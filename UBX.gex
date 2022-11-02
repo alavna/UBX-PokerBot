@@ -1,0 +1,7 @@
+[General]
+Name=UBX
+Project=1
+[Classes]
+Count=2
+Class0="TFrmInfo","TForm","uMain","10","C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uMain.pas"
+Class1="TStopWatch","","uMiscFunctions","6","C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uMiscFunctions.pas"

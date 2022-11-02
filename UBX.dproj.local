@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<BorlandProject>
+	<Transactions>
+    <Transaction>2009.06.24 09:02:15.540.pas,C:\Users\alavna\Documents\RAD Studio\Projects\Unit4.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uMain.pas</Transaction>
+    <Transaction>2009.06.24 09:02:15.540.dfm,C:\Users\alavna\Documents\RAD Studio\Projects\Unit4.dfm=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uMain.dfm</Transaction>
+    <Transaction>2009.06.24 09:02:18.913.dproj,C:\Users\alavna\Documents\RAD Studio\Projects\Project4.dproj=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\UBX.dproj</Transaction>
+    <Transaction>2009.06.24 09:18:26.181.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uHand.pas</Transaction>
+    <Transaction>2009.06.24 09:18:52.109.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uGlobals.pas</Transaction>
+    <Transaction>2009.06.24 09:19:20.689.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uHandAnalysis.pas</Transaction>
+    <Transaction>2009.06.24 09:19:50.062.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uHashTables.pas</Transaction>
+    <Transaction>2009.06.24 09:20:16.124.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uTable.pas</Transaction>
+    <Transaction>2009.06.24 09:24:14.882.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uBrain.pas</Transaction>
+    <Transaction>2009.06.24 09:26:02.379.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uFormUtils.pas</Transaction>
+    <Transaction>2009.06.24 09:31:26.691.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uAutoPlay.pas</Transaction>
+    <Transaction>2009.07.17 19:07:08.206.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\sndkey32.pas</Transaction>
+    <Transaction>2009.07.17 20:43:57.516.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\sndkey32.pas=</Transaction>
+    <Transaction>2009.07.19 09:14:50.111.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uGame.pas</Transaction>
+    <Transaction>2009.07.19 09:16:41.067.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uNewTypes.pas</Transaction>
+    <Transaction>2009.07.19 09:21:50.857.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uGlobalVariables.pas</Transaction>
+    <Transaction>2009.07.19 09:22:06.934.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uGlobalConstants.pas</Transaction>
+    <Transaction>2009.07.19 09:24:22.894.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\Unit1.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uMiscFunctions.pas</Transaction>
+    <Transaction>2009.07.19 09:28:01.045.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uGlobals.pas=</Transaction>
+    <Transaction>2009.07.19 09:55:37.778.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uTable.pas=C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uTableInfo.pas</Transaction>
+    <Transaction>2009.08.12 11:11:09.817.pas,C:\Users\alavna\Documents\RAD Studio\Projects\UBX\uAutoPlay.pas=</Transaction>
+  </Transactions>
+</BorlandProject>

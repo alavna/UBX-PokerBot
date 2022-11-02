@@ -1,0 +1,74 @@
+
+--------------------------------2009/7/26 14:02:18--------------------------------
+A memory block has been leaked. The size is: 36
+
+This block was allocated by thread 0x1398, and the stack trace (return addresses) at the time was:
+You must activate EurekaLog in the "FastMM_FullDebugMode.dll" module.
+
+The block is currently used for an object of class: TCSIdCriticalSection
+
+The allocation number is: 3821
+
+Current memory dump of 256 bytes starting at pointer address 7FF312D0:
+34 33 4E 00 10 01 29 00 FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+70 AF F6 AF 80 80 80 80 00 00 00 00 B1 13 F3 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+6A 0E 00 00 B6 32 40 00 BC C5 50 00 FF C7 50 00 6C 55 40 00 E9 D0 AE 77 BB 19 D9 77 8E 19 D9 77
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 98 13 00 00 D2 32 40 00 97 54 40 00 96 58 40 00
+11 79 4D 00 44 54 4C 00 F1 82 4D 00 5B 4B 4C 00 7A 1A 43 00 72 FD F2 77 4A FE F2 77 6A 9D F2 77
+98 13 00 00 20 00 00 00 90 1A 4A 00 99 AC D0 52 7C 11 53 00 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 66 53 2F AD 80 80 80 80 00 00 00 00 61 14 F3 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6D 0E 00 00 B6 32 40 00 FF C7 50 00 6C 55 40 00
+4  3  N  .  .  .  )  .  ˇ  ˇ  ˇ  ˇ  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+p  Ø  ˆ  Ø  Ä  Ä  Ä  Ä  .  .  .  .  ±  .  Û    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+j  .  .  .  ∂  2  @  .  º  ≈  P  .  ˇ  «  P  .  l  U  @  .  È  –  Æ  w  ª  .  Ÿ  w  é  .  Ÿ  w
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  ò  .  .  .  “  2  @  .  ó  T  @  .  ñ  X  @  .
+.  y  M  .  D  T  L  .  Ò  Ç  M  .  [  K  L  .  z  .  C  .  r  ˝  Ú  w  J  ˛  Ú  w  j  ù  Ú  w
+ò  .  .  .     .  .  .  ê  .  J  .  ô  ¨  –  R  |  .  S  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  f  S  /  ≠  Ä  Ä  Ä  Ä  .  .  .  .  a  .  Û  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  m  .  .  .  ∂  2  @  .  ˇ  «  P  .  l  U  @  .
+
+--------------------------------2009/7/26 14:02:18--------------------------------
+This application has leaked memory. The small block leaks are (excluding expected leaks registered by pointer):
+
+21 - 36 bytes: TCSIdCriticalSection x 1
+
+Note: Memory leak detail is logged to a text file in the same folder as this application. To disable this memory leak check, undefine "EnableMemoryLeakReporting".
+
+--------------------------------2009/7/26 14:28:17--------------------------------
+A memory block has been leaked. The size is: 36
+
+This block was allocated by thread 0x1068, and the stack trace (return addresses) at the time was:
+4032B6 [System][System.@GetMem]
+40556C [System][System.@StartExe]
+75B4D0E9 [BaseThreadInitThunk]
+770A19BB [Unknown function at RtlInitializeExceptionChain]
+770A198E [Unknown function at RtlInitializeExceptionChain]
+
+The block is currently used for an object of class: TCSIdCriticalSection
+
+The allocation number is: 3821
+
+Current memory dump of 256 bytes starting at pointer address 7FF212D0:
+34 33 4E 00 D8 04 27 00 FF FF FF FF 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+D2 B5 27 B7 80 80 80 80 00 00 00 00 B1 13 F2 7F 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+6A 0E 00 00 B6 32 40 00 BC C5 50 00 FF C7 50 00 6C 55 40 00 E9 D0 B4 75 BB 19 0A 77 8E 19 0A 77
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 68 10 00 00 D2 32 40 00 97 54 40 00 96 58 40 00
+11 79 4D 00 44 54 4C 00 F1 82 4D 00 5B 4B 4C 00 7A 1A 43 00 72 FD A7 75 4A FE A7 75 6A 9D A7 75
+68 10 00 00 20 00 00 00 90 1A 4A 00 39 A6 56 48 7C 11 53 00 80 80 80 80 80 80 80 80 80 80 80 80
+80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 80 C6 59 A9 B7 80 80 80 80 00 00 00 00 61 14 F2 7F
+00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 6D 0E 00 00 B6 32 40 00 FF C7 50 00 6C 55 40 00
+4  3  N  .  ÿ  .  '  .  ˇ  ˇ  ˇ  ˇ  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+“  µ  '  ∑  Ä  Ä  Ä  Ä  .  .  .  .  ±  .  Ú    .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .
+j  .  .  .  ∂  2  @  .  º  ≈  P  .  ˇ  «  P  .  l  U  @  .  È  –  ¥  u  ª  .  .  w  é  .  .  w
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  h  .  .  .  “  2  @  .  ó  T  @  .  ñ  X  @  .
+.  y  M  .  D  T  L  .  Ò  Ç  M  .  [  K  L  .  z  .  C  .  r  ˝  ß  u  J  ˛  ß  u  j  ù  ß  u
+h  .  .  .     .  .  .  ê  .  J  .  9  ¶  V  H  |  .  S  .  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä
+Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  Ä  ∆  Y  ©  ∑  Ä  Ä  Ä  Ä  .  .  .  .  a  .  Ú  
+.  .  .  .  .  .  .  .  .  .  .  .  .  .  .  .  m  .  .  .  ∂  2  @  .  ˇ  «  P  .  l  U  @  .
+
+--------------------------------2009/7/26 14:28:17--------------------------------
+This application has leaked memory. The small block leaks are (excluding expected leaks registered by pointer):
+
+21 - 36 bytes: TCSIdCriticalSection x 1
+
+Note: Memory leak detail is logged to a text file in the same folder as this application. To disable this memory leak check, undefine "EnableMemoryLeakReporting".

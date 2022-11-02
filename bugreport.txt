@@ -1,0 +1,1531 @@
+date/time         : 2009-07-25, 09:29:41, 451ms
+computer name     : ALAVNA-PC
+user name         : alavna <admin>
+registered owner  : alavna / TOSHIBA
+operating system  : Windows Vista Service Pack 2 build 6002
+system language   : Turkish
+system up time    : 21 hours 29 minutes
+program up time   : 5 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T7300 @ 2.00GHz
+physical memory   : 903/2046 MB (free/total)
+free disk space   : (C:) 36,63 GB
+display mode      : 1280x800, 32 bit
+process id        : $1080
+allocated memory  : 32,17 MB
+executable        : UBX.exe
+exec. date/time   : 2009-07-25 09:29
+compiled with     : Delphi 2009
+madExcept version : 3.0i beta 2
+callstack crc     : $706896ef, $d75e7665, $d75e7665
+exception number  : 1
+exception class   : EConvertError
+exception message : '' is not a valid floating point value.
+
+main thread ($139c):
+0045bdd9 +019 UBX.exe      SysUtils         ConvertErrorFmt
+0045f21e +02e UBX.exe      SysUtils         StrToFloat
+00519a39 +155 UBX.exe      uMain    263 +12 TFrmInfo.BtnAttachClick
+77d087d5 +0aa GDI32.dll                     ExtTextOutW
+004b0903 +083 UBX.exe      Controls         TWinControl.WMPrintClient
+004a82fe +2d2 UBX.exe      Controls         TControl.WndProc
+76eceb61 +0cc USP10.dll                     ScriptTextOut
+76ece978 +058 USP10.dll                     ScriptStringOut
+004a8867 +06f UBX.exe      Controls         TControl.Click
+0049187a +01e UBX.exe      StdCtrls         TCustomButton.Click
+004922e8 +010 UBX.exe      StdCtrls         TCustomButton.CNCommand
+004a82fe +2d2 UBX.exe      Controls         TControl.WndProc
+004ac803 +513 UBX.exe      Controls         TWinControl.WndProc
+00491540 +06c UBX.exe      StdCtrls         TButtonControl.WndProc
+004a7f38 +024 UBX.exe      Controls         TControl.Perform
+004ac953 +023 UBX.exe      Controls         DoControlMsg
+004ad34f +00b UBX.exe      Controls         TWinControl.WMCommand
+004c2740 +02c UBX.exe      Forms            TCustomForm.WMCommand
+004a82fe +2d2 UBX.exe      Controls         TControl.WndProc
+004ac803 +513 UBX.exe      Controls         TWinControl.WndProc
+004bf6b0 +594 UBX.exe      Forms            TCustomForm.WndProc
+004abf1c +02c UBX.exe      Controls         TWinControl.MainWndProc
+0047ba48 +014 UBX.exe      Classes          StdWndProc
+77f30b31 +044 USER32.dll                    SendMessageW
+77f30974 +016 USER32.dll                    CallWindowProcW
+004ac8ff +0d7 UBX.exe      Controls         TWinControl.DefaultHandler
+004a8c84 +010 UBX.exe      Controls         TControl.WMLButtonUp
+004a82fe +2d2 UBX.exe      Controls         TControl.WndProc
+004ac803 +513 UBX.exe      Controls         TWinControl.WndProc
+00491540 +06c UBX.exe      StdCtrls         TButtonControl.WndProc
+004abf1c +02c UBX.exe      Controls         TWinControl.MainWndProc
+0047ba48 +014 UBX.exe      Classes          StdWndProc
+77f30226 +00a USER32.dll                    DispatchMessageW
+004c7cb1 +11d UBX.exe      Forms            TApplication.ProcessMessage
+004c7cf6 +00a UBX.exe      Forms            TApplication.HandleMessage
+004c8021 +0c9 UBX.exe      Forms            TApplication.Run
+0051c175 +051 UBX.exe      UBX       30  +5 initialization
+77aed0e7 +010 kernel32.dll                  BaseThreadInitThunk
+
+modules:
+00400000 UBX.exe                       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+03a30000 idmmkb.dll   5.16.1.0         C:\Program Files\Internet Download Manager
+10000000 Captlib.dll  8.0.0.24         C:\Program Files\Babylon\Babylon-Pro
+71e70000 wsock32.dll  6.0.6001.18000   C:\Windows\system32
+73f50000 OLEACC.dll   4.2.5406.0       C:\Windows\system32
+75140000 DUser.dll    6.0.6001.18000   C:\Windows\system32
+75170000 uxtheme.dll  6.0.6001.18000   C:\Windows\system32
+751b0000 msimg32.dll  6.0.6000.16386   C:\Windows\system32
+752c0000 comctl32.dll 6.10.6002.18005  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6002.18005_none_5cb72f96088b0de0
+756e0000 version.dll  6.0.6002.18005   C:\Windows\system32
+76290000 Secur32.dll  6.0.6002.18005   C:\Windows\system32
+76590000 iertutil.dll 8.0.6001.18783   C:\Windows\system32
+76780000 ole32.dll    6.0.6002.18005   C:\Windows\system32
+768d0000 RPCRT4.dll   6.0.6002.18024   C:\Windows\system32
+769a0000 msvcrt.dll   7.0.6002.18005   C:\Windows\system32
+76a50000 WININET.dll  8.0.6001.18783   C:\Windows\system32
+76b40000 oleaut32.dll 6.0.6002.18005   C:\Windows\system32
+76c00000 Normaliz.dll 6.0.6000.16386   C:\Windows\system32
+76ca0000 urlmon.dll   8.0.6001.18783   C:\Windows\system32
+76de0000 NSI.dll      6.0.6001.18000   C:\Windows\system32
+76df0000 MSCTF.dll    6.0.6002.18005   C:\Windows\system32
+76ec0000 USP10.dll    1.626.6002.18005 C:\Windows\system32
+76f40000 IMM32.DLL    6.0.6002.18005   C:\Windows\system32
+76f60000 WS2_32.dll   6.0.6001.18000   C:\Windows\system32
+76f90000 shell32.dll  6.0.6002.18005   C:\Windows\system32
+77aa0000 kernel32.dll 6.0.6002.18005   C:\Windows\system32
+77bd0000 SHLWAPI.dll  6.0.6002.18005   C:\Windows\system32
+77c30000 ADVAPI32.dll 6.0.6002.18005   C:\Windows\system32
+77d00000 GDI32.dll    6.0.6002.18005   C:\Windows\system32
+77d50000 ntdll.dll    6.0.6002.18005   C:\Windows\system32
+77e80000 LPK.DLL      6.0.6002.18051   C:\Windows\system32
+77e90000 comdlg32.dll 6.0.6002.18005   C:\Windows\system32
+77f10000 USER32.dll   6.0.6002.18005   C:\Windows\system32
+
+processes:
+0000 Idle                      0
+0004 System                    0
+01d4 smss.exe                  0 normal       C:\Windows\system32
+0258 csrss.exe                 0 normal       C:\Windows\system32
+028c wininit.exe               0 high         C:\Windows\system32
+0298 csrss.exe                 1 normal       C:\Windows\system32
+02b8 services.exe              0 normal       C:\Windows\system32
+02c8 lsass.exe                 0 normal       C:\Windows\system32
+02d4 lsm.exe                   0 normal       C:\Windows\system32
+02f4 winlogon.exe              1 high         C:\Windows\system32
+039c svchost.exe               0 normal       C:\Windows\system32
+03c8 PresentationFontCache.exe 0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+03f4 svchost.exe               0 normal       C:\Windows\system32
+0430 svchost.exe               0 normal       C:\Windows\System32
+0468 Ati2evxx.exe              0 normal       C:\Windows\system32
+0488 svchost.exe               0 normal       C:\Windows\System32
+04ac svchost.exe               0 normal       C:\Windows\System32
+04cc svchost.exe               0 normal       C:\Windows\system32
+0534 audiodg.exe               0
+054c svchost.exe               0 normal       C:\Windows\system32
+0560 SLsvc.exe                 0 normal       C:\Windows\system32
+059c svchost.exe               0 normal       C:\Windows\system32
+0600 Ati2evxx.exe              1 normal       C:\Windows\system32
+06a0 svchost.exe               0 normal       C:\Windows\system32
+071c svchost.exe               0 normal       C:\Windows\system32
+078c agrsmsvc.exe              0 normal       C:\Windows\system32
+07a8 CFSvcs.exe                0 normal       C:\Program Files\TOSHIBA\ConfigFree
+019c IAANTMon.exe              0 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0284 named.exe                 0 normal       C:\Program Files\Superbahis\Bind\bin
+04b8 svchost.exe               0 normal       C:\Windows\system32
+058c svchost.exe               0 normal       C:\Windows\system32
+0628 TNaviSrv.exe              0 normal       C:\Program Files\TOSHIBA\TOSHIBA DVD PLAYER
+06ac TODDSrv.exe               0 normal       C:\Windows\system32
+0788 TosCoSrv.exe              0 normal       C:\Program Files\TOSHIBA\Power Saver
+025c TosBtSrv.exe              0 normal       c:\Program Files\Toshiba\Bluetooth Toshiba Stack
+0838 ULCDRSvr.exe              0 normal       C:\Program Files\Common Files\Ulead Systems\DVD
+0854 svchost.exe               0 normal       C:\Windows\System32
+0898 wmpnetwk.exe              0 normal       C:\Program Files\Windows Media Player
+08b4 SearchIndexer.exe         0 normal       C:\Windows\system32
+08ec YahooAUService.exe        0 normal       C:\Program Files\Yahoo!\SoftwareUpdate
+0a4c taskeng.exe               0 below normal C:\Windows\system32
+0ab8 Dwm.exe                   1 high         C:\Windows\system32
+0ac0 taskeng.exe               1 normal       C:\Windows\system32
+0afc Explorer.EXE              1 normal       C:\Windows
+0b94 KeNotify.exe              1 normal       C:\Program Files\TOSHIBA\Utilities
+0ba8 RtHDVCpl.exe              1 normal       C:\Windows
+0bb0 TPwrMain.exe              1 normal       C:\Program Files\TOSHIBA\Power Saver
+0bec SmoothView.exe            1 normal       C:\Program Files\TOSHIBA\SmoothView
+0c34 TCrdMain.exe              1 normal       C:\Program Files\TOSHIBA\FlashCards
+0c3c NDSTray.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+0c4c traybar.exe               1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+0c5c SynTPEnh.exe              1 normal       C:\Program Files\Synaptics\SynTP
+0c64 IAAnotif.exe              1 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0c74 Babylon.exe               1 normal       C:\Program Files\Babylon\Babylon-Pro
+0c7c MSASCui.exe               1 normal       C:\Program Files\Windows Defender
+0cb8 TreadstoneUpdate.exe      1 normal       C:\Program Files\Superbahis\Update
+0cc0 jusched.exe               1 normal       C:\Program Files\Java\jre6\bin
+0ccc TOSCDSPD.exe              1 normal       C:\Program Files\TOSHIBA\TOSCDSPD
+0ce0 daemon.exe                1 normal       C:\Program Files\DAEMON Tools Lite
+0cec btdna.exe                 1 normal       C:\Program Files\DNA
+0d44 robotaskbaricon.exe       1 normal       C:\Program Files\Siber Systems\AI RoboForm
+0d5c IDMan.exe                 1 normal       C:\Program Files\Internet Download Manager
+0d7c xmarkssync.exe            1 normal       C:\Program Files\Xmarks\IE Extension
+0d88 ShutdownGuard.exe         1 normal       C:\Program Files\ShutdownGuard
+0da8 wmpnscfg.exe              1 normal       C:\Program Files\Windows Media Player
+0e38 MOM.EXE                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+0fc0 CEC_MAIN.exe              1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+03b4 SynToshiba.exe            1 normal       C:\Program Files\Synaptics\SynTP
+0e10 CFSwMgr.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+086c IEMonitor.exe             1 normal       C:\Program Files\Internet Download Manager
+09d8 CCC.exe                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+10c0 JetAudio.exe              1 normal       C:\Program Files\JetAudio
+1694 conime.exe                1 normal       C:\Windows\system32
+1120 bds.exe                   1 normal       C:\Program Files\CodeGear\RAD Studio\6.0\bin
+0ddc SearchProtocolHost.exe    0 idle         C:\Windows\system32
+15cc taskeng.exe               0 below normal C:\Windows\system32
+0a38 SearchFilterHost.exe      0 idle         C:\Windows\system32
+1080 UBX.exe                   1 normal       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - Hitachi HTS541616J9SA00
++ Display adapters
+  - ATI Mobility Radeon HD 2600 (driver 8.383.1.1000)
++ DVD/CD-ROM drives
+  - MZG KX6RWHERK SCSI CdRom Device
+  - TSSTcorp CD/DVDW TS-L632D ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) 82801HEM/HBM SATA AHCI Controller (driver 7.0.0.1020)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
++ IEEE 1394 Bus host controllers
+  - Texas Instruments OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.208.424)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Memory technology driver
+  - Texas Instruments PCIxx12 Integrated FlashMedia Controller (driver 2.0.0.7)
++ Mice and other pointing devices
+  - Synaptics PS/2 Port TouchPad (driver 10.0.1.0)
++ Modems
+  - TOSHIBA Software Modem (driver 2.1.77.0)
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Intel(R) Wireless WiFi Link 4965AGN (driver 12.4.0.21)
+  - Realtek RTL8101E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.213.1110.2008)
++ PCMCIA adapters
+  - Texas Instruments PCIxx12 Cardbus Controller
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
+  - Realtek High Definition Audio (driver 6.0.1.5433)
++ Storage controllers
+  - A5OWGJPL IDE Controller
+  - Microsoft iSCSI Initiator
++ Storage volume shadow copies
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - Bluetooth ACPI (driver 5.0.1023.0)
+  - Consumer IR Devices
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - Extended IO Bus
+  - High Definition Audio Controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 3 - 2843 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 4 - 2845 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - LPC Interface Controller (driver 1.0.50.8)
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express PCI Express Root Port - 2A01 (driver 8.2.0.1000)
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.1)
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ TosSec Class
+  - TOSHIBA tos_sps32 Driver (driver 4.0.2006.1026)
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+disassembling:
+[...]
+00519a2d               eax, [eax]
+00519a2f               dl, 1
+00519a31               ecx, [eax]
+00519a33               dword ptr [ecx-4]
+00519a36 263           eax, [ebp-8]
+00519a39     >         -$ba84e ($45f1f0)      ; SysUtils.StrToFloat
+00519a3e               eax, [$53439c]
+00519a43       f       qword ptr [eax+$18]
+00519a46
+00519a47 264           eax, [ebp-$c]
+00519a4a               -$ba85f ($45f1f0)      ; SysUtils.StrToFloat
+[...]
+
+date/time         : 2009-07-25, 09:29:49, 686ms
+computer name     : ALAVNA-PC
+user name         : alavna <admin>
+registered owner  : alavna / TOSHIBA
+operating system  : Windows Vista Service Pack 2 build 6002
+system language   : Turkish
+system up time    : 21 hours 29 minutes
+program up time   : 13 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T7300 @ 2.00GHz
+physical memory   : 899/2046 MB (free/total)
+free disk space   : (C:) 36,63 GB
+display mode      : 1280x800, 32 bit
+process id        : $1080
+allocated memory  : 37,28 MB
+executable        : UBX.exe
+exec. date/time   : 2009-07-25 09:29
+compiled with     : Delphi 2009
+madExcept version : 3.0i beta 2
+callstack crc     : $8e95185e, $eeedbc50, $eeedbc50
+exception number  : 2
+exception class   : EAccessViolation
+exception message : Access violation at address 004045C6 in module 'UBX.exe'. Read of address 746E6F43.
+
+main thread ($139c):
+004045c6 +06 UBX.exe      System   103 +0 TObject.Free
+004c8793 +47 UBX.exe      Forms           TApplication.SetShowHint
+004bc5b5 +21 UBX.exe      Forms           DoneApplication
+0045be0a +26 UBX.exe      SysUtils        DoExitProc
+00405709 +65 UBX.exe      System   103 +0 @Halt0
+0051c17a +56 UBX.exe      UBX       31 +6 initialization
+77aed0e7 +10 kernel32.dll                 BaseThreadInitThunk
+
+modules:
+00400000 UBX.exe                       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+03a30000 idmmkb.dll   5.16.1.0         C:\Program Files\Internet Download Manager
+10000000 Captlib.dll  8.0.0.24         C:\Program Files\Babylon\Babylon-Pro
+71e70000 wsock32.dll  6.0.6001.18000   C:\Windows\system32
+73f50000 OLEACC.dll   4.2.5406.0       C:\Windows\system32
+75140000 DUser.dll    6.0.6001.18000   C:\Windows\system32
+75170000 uxtheme.dll  6.0.6001.18000   C:\Windows\system32
+751b0000 msimg32.dll  6.0.6000.16386   C:\Windows\system32
+752c0000 comctl32.dll 6.10.6002.18005  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6002.18005_none_5cb72f96088b0de0
+75650000 WINTRUST.dll 6.0.6001.18000   C:\Windows\system32
+756e0000 version.dll  6.0.6002.18005   C:\Windows\system32
+75db0000 CRYPT32.dll  6.0.6002.18005   C:\Windows\system32
+75f10000 MSASN1.dll   6.0.6000.16386   C:\Windows\system32
+76290000 Secur32.dll  6.0.6002.18005   C:\Windows\system32
+762b0000 USERENV.dll  6.0.6002.18005   C:\Windows\system32
+76360000 psapi.dll    6.0.6000.16386   C:\Windows\system32
+76590000 iertutil.dll 8.0.6001.18783   C:\Windows\system32
+76780000 ole32.dll    6.0.6002.18005   C:\Windows\system32
+768d0000 RPCRT4.dll   6.0.6002.18024   C:\Windows\system32
+769a0000 msvcrt.dll   7.0.6002.18005   C:\Windows\system32
+76a50000 WININET.dll  8.0.6001.18783   C:\Windows\system32
+76b40000 oleaut32.dll 6.0.6002.18005   C:\Windows\system32
+76bd0000 imagehlp.dll 6.0.6001.18000   C:\Windows\system32
+76c00000 Normaliz.dll 6.0.6000.16386   C:\Windows\system32
+76ca0000 urlmon.dll   8.0.6001.18783   C:\Windows\system32
+76de0000 NSI.dll      6.0.6001.18000   C:\Windows\system32
+76df0000 MSCTF.dll    6.0.6002.18005   C:\Windows\system32
+76ec0000 USP10.dll    1.626.6002.18005 C:\Windows\system32
+76f40000 IMM32.DLL    6.0.6002.18005   C:\Windows\system32
+76f60000 WS2_32.dll   6.0.6001.18000   C:\Windows\system32
+76f90000 shell32.dll  6.0.6002.18005   C:\Windows\system32
+77aa0000 kernel32.dll 6.0.6002.18005   C:\Windows\system32
+77bd0000 SHLWAPI.dll  6.0.6002.18005   C:\Windows\system32
+77c30000 ADVAPI32.dll 6.0.6002.18005   C:\Windows\system32
+77d00000 GDI32.dll    6.0.6002.18005   C:\Windows\system32
+77d50000 ntdll.dll    6.0.6002.18005   C:\Windows\system32
+77e80000 LPK.DLL      6.0.6002.18051   C:\Windows\system32
+77e90000 comdlg32.dll 6.0.6002.18005   C:\Windows\system32
+77f10000 USER32.dll   6.0.6002.18005   C:\Windows\system32
+
+processes:
+0000 Idle                      0
+0004 System                    0
+01d4 smss.exe                  0 normal       C:\Windows\system32
+0258 csrss.exe                 0 normal       C:\Windows\system32
+028c wininit.exe               0 high         C:\Windows\system32
+0298 csrss.exe                 1 normal       C:\Windows\system32
+02b8 services.exe              0 normal       C:\Windows\system32
+02c8 lsass.exe                 0 normal       C:\Windows\system32
+02d4 lsm.exe                   0 normal       C:\Windows\system32
+02f4 winlogon.exe              1 high         C:\Windows\system32
+039c svchost.exe               0 normal       C:\Windows\system32
+03c8 PresentationFontCache.exe 0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+03f4 svchost.exe               0 normal       C:\Windows\system32
+0430 svchost.exe               0 normal       C:\Windows\System32
+0468 Ati2evxx.exe              0 normal       C:\Windows\system32
+0488 svchost.exe               0 normal       C:\Windows\System32
+04ac svchost.exe               0 normal       C:\Windows\System32
+04cc svchost.exe               0 normal       C:\Windows\system32
+0534 audiodg.exe               0
+054c svchost.exe               0 normal       C:\Windows\system32
+0560 SLsvc.exe                 0 normal       C:\Windows\system32
+059c svchost.exe               0 normal       C:\Windows\system32
+0600 Ati2evxx.exe              1 normal       C:\Windows\system32
+06a0 svchost.exe               0 normal       C:\Windows\system32
+071c svchost.exe               0 normal       C:\Windows\system32
+078c agrsmsvc.exe              0 normal       C:\Windows\system32
+07a8 CFSvcs.exe                0 normal       C:\Program Files\TOSHIBA\ConfigFree
+019c IAANTMon.exe              0 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0284 named.exe                 0 normal       C:\Program Files\Superbahis\Bind\bin
+04b8 svchost.exe               0 normal       C:\Windows\system32
+058c svchost.exe               0 normal       C:\Windows\system32
+0628 TNaviSrv.exe              0 normal       C:\Program Files\TOSHIBA\TOSHIBA DVD PLAYER
+06ac TODDSrv.exe               0 normal       C:\Windows\system32
+0788 TosCoSrv.exe              0 normal       C:\Program Files\TOSHIBA\Power Saver
+025c TosBtSrv.exe              0 normal       c:\Program Files\Toshiba\Bluetooth Toshiba Stack
+0838 ULCDRSvr.exe              0 normal       C:\Program Files\Common Files\Ulead Systems\DVD
+0854 svchost.exe               0 normal       C:\Windows\System32
+0898 wmpnetwk.exe              0 normal       C:\Program Files\Windows Media Player
+08b4 SearchIndexer.exe         0 normal       C:\Windows\system32
+08ec YahooAUService.exe        0 normal       C:\Program Files\Yahoo!\SoftwareUpdate
+0a4c taskeng.exe               0 below normal C:\Windows\system32
+0ab8 Dwm.exe                   1 high         C:\Windows\system32
+0ac0 taskeng.exe               1 normal       C:\Windows\system32
+0afc Explorer.EXE              1 normal       C:\Windows
+0b94 KeNotify.exe              1 normal       C:\Program Files\TOSHIBA\Utilities
+0ba8 RtHDVCpl.exe              1 normal       C:\Windows
+0bb0 TPwrMain.exe              1 normal       C:\Program Files\TOSHIBA\Power Saver
+0bec SmoothView.exe            1 normal       C:\Program Files\TOSHIBA\SmoothView
+0c34 TCrdMain.exe              1 normal       C:\Program Files\TOSHIBA\FlashCards
+0c3c NDSTray.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+0c4c traybar.exe               1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+0c5c SynTPEnh.exe              1 normal       C:\Program Files\Synaptics\SynTP
+0c64 IAAnotif.exe              1 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0c74 Babylon.exe               1 normal       C:\Program Files\Babylon\Babylon-Pro
+0c7c MSASCui.exe               1 normal       C:\Program Files\Windows Defender
+0cb8 TreadstoneUpdate.exe      1 normal       C:\Program Files\Superbahis\Update
+0cc0 jusched.exe               1 normal       C:\Program Files\Java\jre6\bin
+0ccc TOSCDSPD.exe              1 normal       C:\Program Files\TOSHIBA\TOSCDSPD
+0ce0 daemon.exe                1 normal       C:\Program Files\DAEMON Tools Lite
+0cec btdna.exe                 1 normal       C:\Program Files\DNA
+0d44 robotaskbaricon.exe       1 normal       C:\Program Files\Siber Systems\AI RoboForm
+0d5c IDMan.exe                 1 normal       C:\Program Files\Internet Download Manager
+0d7c xmarkssync.exe            1 normal       C:\Program Files\Xmarks\IE Extension
+0d88 ShutdownGuard.exe         1 normal       C:\Program Files\ShutdownGuard
+0da8 wmpnscfg.exe              1 normal       C:\Program Files\Windows Media Player
+0e38 MOM.EXE                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+0fc0 CEC_MAIN.exe              1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+03b4 SynToshiba.exe            1 normal       C:\Program Files\Synaptics\SynTP
+0e10 CFSwMgr.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+086c IEMonitor.exe             1 normal       C:\Program Files\Internet Download Manager
+09d8 CCC.exe                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+10c0 JetAudio.exe              1 normal       C:\Program Files\JetAudio
+1694 conime.exe                1 normal       C:\Windows\system32
+1120 bds.exe                   1 normal       C:\Program Files\CodeGear\RAD Studio\6.0\bin
+0ddc SearchProtocolHost.exe    0 idle         C:\Windows\system32
+15cc taskeng.exe               0 below normal C:\Windows\system32
+0a38 SearchFilterHost.exe      0 idle         C:\Windows\system32
+1080 UBX.exe                   1 normal       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - Hitachi HTS541616J9SA00
++ Display adapters
+  - ATI Mobility Radeon HD 2600 (driver 8.383.1.1000)
++ DVD/CD-ROM drives
+  - MZG KX6RWHERK SCSI CdRom Device
+  - TSSTcorp CD/DVDW TS-L632D ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) 82801HEM/HBM SATA AHCI Controller (driver 7.0.0.1020)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
++ IEEE 1394 Bus host controllers
+  - Texas Instruments OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.208.424)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Memory technology driver
+  - Texas Instruments PCIxx12 Integrated FlashMedia Controller (driver 2.0.0.7)
++ Mice and other pointing devices
+  - Synaptics PS/2 Port TouchPad (driver 10.0.1.0)
++ Modems
+  - TOSHIBA Software Modem (driver 2.1.77.0)
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Intel(R) Wireless WiFi Link 4965AGN (driver 12.4.0.21)
+  - Realtek RTL8101E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.213.1110.2008)
++ PCMCIA adapters
+  - Texas Instruments PCIxx12 Cardbus Controller
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
+  - Realtek High Definition Audio (driver 6.0.1.5433)
++ Storage controllers
+  - A5OWGJPL IDE Controller
+  - Microsoft iSCSI Initiator
++ Storage volume shadow copies
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - Bluetooth ACPI (driver 5.0.1023.0)
+  - Consumer IR Devices
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - Extended IO Bus
+  - High Definition Audio Controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 3 - 2843 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 4 - 2845 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - LPC Interface Controller (driver 1.0.50.8)
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express PCI Express Root Port - 2A01 (driver 8.2.0.1000)
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.1)
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ TosSec Class
+  - TOSHIBA tos_sps32 Driver (driver 4.0.2006.1026)
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 746e6f43
+ebx = 01890150
+ecx = 018a5cf0
+edx = 00000001
+esi = 00537aec
+edi = 00535050
+eip = 004045c6
+esp = 0012ff48
+ebp = 0012ff88
+
+stack dump:
+0012ff48  98 87 4c 00 ec 7a 53 00 - 94 c5 4b 00 ba c5 4b 00  ..L..zS...K...K.
+0012ff58  0c be 45 00 e4 bd 45 00 - 0b 57 40 00 88 ff 12 00  ..E...E..W@.....
+0012ff68  00 00 00 00 00 00 00 00 - 00 f0 fd 7f 7f c1 51 00  ..............Q.
+0012ff78  c4 ff 12 00 24 52 40 00 - 88 ff 12 00 00 00 00 00  ....$R@.........
+0012ff88  94 ff 12 00 e9 d0 ae 77 - 00 f0 fd 7f d4 ff 12 00  .......w........
+0012ff98  bb 19 d9 77 00 f0 fd 7f - 6d 8e 67 73 00 00 00 00  ...w....m.gs....
+0012ffa8  00 00 00 00 00 f0 fd 7f - 00 00 00 00 00 00 00 00  ................
+0012ffb8  00 00 00 00 a0 ff 12 00 - 00 00 00 00 ff ff ff ff  ................
+0012ffc8  fa 99 d5 77 01 3b af 04 - 00 00 00 00 ec ff 12 00  ...w.;..........
+0012ffd8  8e 19 d9 77 24 c1 51 00 - 00 f0 fd 7f 00 00 00 00  ...w$.Q.........
+0012ffe8  00 00 00 00 00 00 00 00 - 00 00 00 00 24 c1 51 00  ............$.Q.
+0012fff8  00 f0 fd 7f 00 00 00 00                            ........
+
+disassembling:
+004045c0     public System.TObject.Free:      ; function entry point
+004045c0 103           eax, eax
+004045c2               loc_4045cb
+004045c4               dl, 1
+004045c6     >         ecx, [eax]
+004045c8               dword ptr [ecx-4]
+004045cb
+
+date/time         : 2009-07-25, 10:08:34, 854ms
+computer name     : ALAVNA-PC
+user name         : alavna <admin>
+registered owner  : alavna / TOSHIBA
+operating system  : Windows Vista Service Pack 2 build 6002
+system language   : Turkish
+system up time    : 22 hours 8 minutes
+program up time   : 5 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T7300 @ 2.00GHz
+physical memory   : 875/2046 MB (free/total)
+free disk space   : (C:) 36,64 GB
+display mode      : 1280x800, 32 bit
+process id        : $1538
+allocated memory  : 31,08 MB
+executable        : UBX.exe
+exec. date/time   : 2009-07-25 10:08
+compiled with     : Delphi 2009
+madExcept version : 3.0i beta 2
+callstack crc     : $77d8e13d, $157ea680, $157ea680
+exception number  : 1
+exception class   : EAccessViolation
+exception message : Access violation at address 77D8E13D in module 'ntdll.dll'. Write of address 00000014.
+
+main thread ($384):
+77d8e13d +09b ntdll.dll
+77d8e048 +000 ntdll.dll                      RtlEnterCriticalSection
+004d4f46 +01a UBX.exe      GR32     1547  +2 TThreadPersistent.Lock
+004d51f1 +01d UBX.exe      GR32     1649  +2 TBitmap32.Destroy
+004045d8 +008 UBX.exe      System    103  +0 TObject.Free
+00514326 +04e UBX.exe      uMain     258 +11 DestroyBitmaps
+0051453e +1ae UBX.exe      uMain     300 +20 TFrmInfo.BtnAttachClick
+004a8843 +06f UBX.exe      Controls          TControl.Click
+00491856 +01e UBX.exe      StdCtrls          TCustomButton.Click
+004922c4 +010 UBX.exe      StdCtrls          TCustomButton.CNCommand
+004a82da +2d2 UBX.exe      Controls          TControl.WndProc
+004ac7df +513 UBX.exe      Controls          TWinControl.WndProc
+0049151c +06c UBX.exe      StdCtrls          TButtonControl.WndProc
+004a7f14 +024 UBX.exe      Controls          TControl.Perform
+004ac92f +023 UBX.exe      Controls          DoControlMsg
+004ad32b +00b UBX.exe      Controls          TWinControl.WMCommand
+004c271c +02c UBX.exe      Forms             TCustomForm.WMCommand
+004a82da +2d2 UBX.exe      Controls          TControl.WndProc
+004ac7df +513 UBX.exe      Controls          TWinControl.WndProc
+004bf68c +594 UBX.exe      Forms             TCustomForm.WndProc
+004abef8 +02c UBX.exe      Controls          TWinControl.MainWndProc
+0047ba58 +014 UBX.exe      Classes           StdWndProc
+77f30b31 +044 USER32.dll                     SendMessageW
+77f30974 +016 USER32.dll                     CallWindowProcW
+004ac8db +0d7 UBX.exe      Controls          TWinControl.DefaultHandler
+004a8c60 +010 UBX.exe      Controls          TControl.WMLButtonUp
+004a82da +2d2 UBX.exe      Controls          TControl.WndProc
+004ac7df +513 UBX.exe      Controls          TWinControl.WndProc
+0049151c +06c UBX.exe      StdCtrls          TButtonControl.WndProc
+004abef8 +02c UBX.exe      Controls          TWinControl.MainWndProc
+0047ba58 +014 UBX.exe      Classes           StdWndProc
+77f30226 +00a USER32.dll                     DispatchMessageW
+004c7c8d +11d UBX.exe      Forms             TApplication.ProcessMessage
+004c7cd2 +00a UBX.exe      Forms             TApplication.HandleMessage
+004c7ffd +0c9 UBX.exe      Forms             TApplication.Run
+00517175 +051 UBX.exe      UBX        30  +5 initialization
+77aed0e7 +010 kernel32.dll                   BaseThreadInitThunk
+
+modules:
+00400000 UBX.exe                       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+01d20000 idmmkb.dll   5.16.1.0         C:\Program Files\Internet Download Manager
+10000000 Captlib.dll  8.0.0.24         C:\Program Files\Babylon\Babylon-Pro
+71e70000 wsock32.dll  6.0.6001.18000   C:\Windows\system32
+73f50000 OLEACC.dll   4.2.5406.0       C:\Windows\system32
+75140000 DUser.dll    6.0.6001.18000   C:\Windows\system32
+75170000 uxtheme.dll  6.0.6001.18000   C:\Windows\system32
+751b0000 msimg32.dll  6.0.6000.16386   C:\Windows\system32
+752c0000 comctl32.dll 6.10.6002.18005  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6002.18005_none_5cb72f96088b0de0
+756e0000 version.dll  6.0.6002.18005   C:\Windows\system32
+76290000 Secur32.dll  6.0.6002.18005   C:\Windows\system32
+76590000 iertutil.dll 8.0.6001.18783   C:\Windows\system32
+76780000 ole32.dll    6.0.6002.18005   C:\Windows\system32
+768d0000 RPCRT4.dll   6.0.6002.18024   C:\Windows\system32
+769a0000 msvcrt.dll   7.0.6002.18005   C:\Windows\system32
+76a50000 WININET.dll  8.0.6001.18783   C:\Windows\system32
+76b40000 oleaut32.dll 6.0.6002.18005   C:\Windows\system32
+76c00000 Normaliz.dll 6.0.6000.16386   C:\Windows\system32
+76ca0000 urlmon.dll   8.0.6001.18783   C:\Windows\system32
+76de0000 NSI.dll      6.0.6001.18000   C:\Windows\system32
+76df0000 MSCTF.dll    6.0.6002.18005   C:\Windows\system32
+76ec0000 USP10.dll    1.626.6002.18005 C:\Windows\system32
+76f40000 IMM32.DLL    6.0.6002.18005   C:\Windows\system32
+76f60000 WS2_32.dll   6.0.6001.18000   C:\Windows\system32
+76f90000 shell32.dll  6.0.6002.18005   C:\Windows\system32
+77aa0000 kernel32.dll 6.0.6002.18005   C:\Windows\system32
+77bd0000 SHLWAPI.dll  6.0.6002.18005   C:\Windows\system32
+77c30000 ADVAPI32.dll 6.0.6002.18005   C:\Windows\system32
+77d00000 GDI32.dll    6.0.6002.18005   C:\Windows\system32
+77d50000 ntdll.dll    6.0.6002.18005   C:\Windows\system32
+77e80000 LPK.DLL      6.0.6002.18051   C:\Windows\system32
+77e90000 comdlg32.dll 6.0.6002.18005   C:\Windows\system32
+77f10000 USER32.dll   6.0.6002.18005   C:\Windows\system32
+
+processes:
+0000 Idle                      0
+0004 System                    0
+01d4 smss.exe                  0 normal       C:\Windows\system32
+0258 csrss.exe                 0 normal       C:\Windows\system32
+028c wininit.exe               0 high         C:\Windows\system32
+0298 csrss.exe                 1 normal       C:\Windows\system32
+02b8 services.exe              0 normal       C:\Windows\system32
+02c8 lsass.exe                 0 normal       C:\Windows\system32
+02d4 lsm.exe                   0 normal       C:\Windows\system32
+02f4 winlogon.exe              1 high         C:\Windows\system32
+039c svchost.exe               0 normal       C:\Windows\system32
+03c8 PresentationFontCache.exe 0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+03f4 svchost.exe               0 normal       C:\Windows\system32
+0430 svchost.exe               0 normal       C:\Windows\System32
+0468 Ati2evxx.exe              0 normal       C:\Windows\system32
+0488 svchost.exe               0 normal       C:\Windows\System32
+04ac svchost.exe               0 normal       C:\Windows\System32
+04cc svchost.exe               0 normal       C:\Windows\system32
+0534 audiodg.exe               0
+054c svchost.exe               0 normal       C:\Windows\system32
+0560 SLsvc.exe                 0 normal       C:\Windows\system32
+059c svchost.exe               0 normal       C:\Windows\system32
+0600 Ati2evxx.exe              1 normal       C:\Windows\system32
+06a0 svchost.exe               0 normal       C:\Windows\system32
+071c svchost.exe               0 normal       C:\Windows\system32
+078c agrsmsvc.exe              0 normal       C:\Windows\system32
+07a8 CFSvcs.exe                0 normal       C:\Program Files\TOSHIBA\ConfigFree
+019c IAANTMon.exe              0 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0284 named.exe                 0 normal       C:\Program Files\Superbahis\Bind\bin
+04b8 svchost.exe               0 normal       C:\Windows\system32
+058c svchost.exe               0 normal       C:\Windows\system32
+0628 TNaviSrv.exe              0 normal       C:\Program Files\TOSHIBA\TOSHIBA DVD PLAYER
+06ac TODDSrv.exe               0 normal       C:\Windows\system32
+0788 TosCoSrv.exe              0 normal       C:\Program Files\TOSHIBA\Power Saver
+025c TosBtSrv.exe              0 normal       c:\Program Files\Toshiba\Bluetooth Toshiba Stack
+0838 ULCDRSvr.exe              0 normal       C:\Program Files\Common Files\Ulead Systems\DVD
+0854 svchost.exe               0 normal       C:\Windows\System32
+0898 wmpnetwk.exe              0 normal       C:\Program Files\Windows Media Player
+08b4 SearchIndexer.exe         0 normal       C:\Windows\system32
+08ec YahooAUService.exe        0 normal       C:\Program Files\Yahoo!\SoftwareUpdate
+0a4c taskeng.exe               0 below normal C:\Windows\system32
+0ab8 Dwm.exe                   1 high         C:\Windows\system32
+0ac0 taskeng.exe               1 normal       C:\Windows\system32
+0afc Explorer.EXE              1 normal       C:\Windows
+0b94 KeNotify.exe              1 normal       C:\Program Files\TOSHIBA\Utilities
+0ba8 RtHDVCpl.exe              1 normal       C:\Windows
+0bb0 TPwrMain.exe              1 normal       C:\Program Files\TOSHIBA\Power Saver
+0bec SmoothView.exe            1 normal       C:\Program Files\TOSHIBA\SmoothView
+0c34 TCrdMain.exe              1 normal       C:\Program Files\TOSHIBA\FlashCards
+0c3c NDSTray.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+0c4c traybar.exe               1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+0c5c SynTPEnh.exe              1 normal       C:\Program Files\Synaptics\SynTP
+0c64 IAAnotif.exe              1 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0c74 Babylon.exe               1 normal       C:\Program Files\Babylon\Babylon-Pro
+0c7c MSASCui.exe               1 normal       C:\Program Files\Windows Defender
+0cb8 TreadstoneUpdate.exe      1 normal       C:\Program Files\Superbahis\Update
+0cc0 jusched.exe               1 normal       C:\Program Files\Java\jre6\bin
+0ccc TOSCDSPD.exe              1 normal       C:\Program Files\TOSHIBA\TOSCDSPD
+0ce0 daemon.exe                1 normal       C:\Program Files\DAEMON Tools Lite
+0cec btdna.exe                 1 normal       C:\Program Files\DNA
+0d44 robotaskbaricon.exe       1 normal       C:\Program Files\Siber Systems\AI RoboForm
+0d5c IDMan.exe                 1 normal       C:\Program Files\Internet Download Manager
+0d7c xmarkssync.exe            1 normal       C:\Program Files\Xmarks\IE Extension
+0d88 ShutdownGuard.exe         1 normal       C:\Program Files\ShutdownGuard
+0da8 wmpnscfg.exe              1 normal       C:\Program Files\Windows Media Player
+0e38 MOM.EXE                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+0fc0 CEC_MAIN.exe              1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+03b4 SynToshiba.exe            1 normal       C:\Program Files\Synaptics\SynTP
+0e10 CFSwMgr.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+086c IEMonitor.exe             1 normal       C:\Program Files\Internet Download Manager
+09d8 CCC.exe                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+10c0 JetAudio.exe              1 normal       C:\Program Files\JetAudio
+1694 conime.exe                1 normal       C:\Windows\system32
+1120 bds.exe                   1 normal       C:\Program Files\CodeGear\RAD Studio\6.0\bin
+13bc Taskmgr.exe               1 high         C:\Windows\system32
+1740 taskeng.exe               0 below normal C:\Windows\system32
+137c SearchProtocolHost.exe    0 idle         C:\Windows\system32
+16c8 SearchFilterHost.exe      0 idle         C:\Windows\system32
+1538 UBX.exe                   1 normal       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - Hitachi HTS541616J9SA00
++ Display adapters
+  - ATI Mobility Radeon HD 2600 (driver 8.383.1.1000)
++ DVD/CD-ROM drives
+  - MZG KX6RWHERK SCSI CdRom Device
+  - TSSTcorp CD/DVDW TS-L632D ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) 82801HEM/HBM SATA AHCI Controller (driver 7.0.0.1020)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
++ IEEE 1394 Bus host controllers
+  - Texas Instruments OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.208.424)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Memory technology driver
+  - Texas Instruments PCIxx12 Integrated FlashMedia Controller (driver 2.0.0.7)
++ Mice and other pointing devices
+  - Synaptics PS/2 Port TouchPad (driver 10.0.1.0)
++ Modems
+  - TOSHIBA Software Modem (driver 2.1.77.0)
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Intel(R) Wireless WiFi Link 4965AGN (driver 12.4.0.21)
+  - Realtek RTL8101E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.213.1110.2008)
++ PCMCIA adapters
+  - Texas Instruments PCIxx12 Cardbus Controller
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
+  - Realtek High Definition Audio (driver 6.0.1.5433)
++ Storage controllers
+  - A5OWGJPL IDE Controller
+  - Microsoft iSCSI Initiator
++ Storage volume shadow copies
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - Bluetooth ACPI (driver 5.0.1023.0)
+  - Consumer IR Devices
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - Extended IO Bus
+  - High Definition Audio Controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 3 - 2843 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 4 - 2845 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - LPC Interface Controller (driver 1.0.50.8)
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express PCI Express Root Port - 2A01 (driver 8.2.0.1000)
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.1)
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ TosSec Class
+  - TOSHIBA tos_sps32 Driver (driver 4.0.2006.1026)
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+cpu registers:
+eax = 00000000
+ebx = fffffffc
+ecx = 00000000
+edx = 00000004
+esi = 01ba41d0
+edi = 01ba41d4
+eip = 77d8e13d
+esp = 0012d2cc
+ebp = 0012d31c
+
+stack dump:
+0012d2cc  d0 41 ba 01 d4 41 ba 01 - b0 fc ba 01 78 a8 23 00  .A...A......x.#.
+0012d2dc  80 a8 23 00 80 a8 23 00 - f0 42 ba 01 01 00 00 00  ..#...#..B......
+0012d2ec  00 d3 12 00 9e ed d8 77 - 00 00 21 00 00 00 00 00  .......w..!.....
+0012d2fc  78 a8 23 00 20 f7 12 00 - e0 42 ba 01 00 00 00 00  x.#......B......
+0012d30c  00 00 00 00 00 00 00 00 - 00 e0 fd 7f 58 01 00 00  ............X...
+0012d31c  44 d3 12 00 4d e0 d8 77 - 00 00 00 00 00 00 00 00  D...M..w........
+0012d32c  b0 fc ba 01 20 f7 12 00 - 38 18 49 00 04 00 00 00  ........8.I.....
+0012d33c  00 00 00 00 01 00 00 00 - 54 d3 12 00 4b 4f 4d 00  ........T...KOM.
+0012d34c  d0 41 ba 01 c0 41 ba 01 - 68 d3 12 00 f6 51 4d 00  .A...A..h....QM.
+0012d35c  b0 fc ba 01 61 a7 45 01 - c0 41 ba 01 78 d3 12 00  ....a.E..A..x...
+0012d36c  db 45 40 00 2b 43 51 00 - 00 00 00 00 80 f5 12 00  .E@.+CQ.........
+0012d37c  43 45 51 00 fc f8 12 00 - 64 4f 40 00 80 f5 12 00  CEQ.....dO@.....
+0012d38c  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012d39c  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012d3ac  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012d3bc  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012d3cc  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012d3dc  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012d3ec  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+0012d3fc  00 00 00 00 00 00 00 00 - 00 00 00 00 00 00 00 00  ................
+
+disassembling:
+[...]
+004d4f39                eax
+004d4f3a                -$cb6e7 ($409858)      ; Windows.InterlockedIncrement
+004d4f3f 1547           eax, [ebp-4]
+004d4f42                eax, $10
+004d4f45                eax
+004d4f46      >         -$cb7bb ($409790)      ; Windows.EnterCriticalSection
+004d4f4b 1548           ecx
+004d4f4c                ebp
+004d4f4d
+
+date/time         : 2009-08-10, 14:19:45, 38ms
+computer name     : ALAVNA-PC
+user name         : alavna <admin>
+registered owner  : alavna / TOSHIBA
+operating system  : Windows Vista Service Pack 2 build 6002
+system language   : Turkish
+system up time    : 2 hours 49 minutes
+program up time   : 1 minute 58 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T7300 @ 2.00GHz
+physical memory   : 968/2046 MB (free/total)
+free disk space   : (C:) 34,14 GB
+display mode      : 1280x800, 32 bit
+process id        : $16f4
+allocated memory  : 30,89 MB
+executable        : UBX.exe
+exec. date/time   : 2009-08-10 14:17
+compiled with     : Delphi 2009
+madExcept version : 3.0i beta 2
+callstack crc     : $94f611a3, $bb914624, $bb914624
+exception number  : 1
+exception class   : ERangeError
+exception message : Range check error.
+
+main thread ($1334):
+0050849a +0be UBX.exe      uMiscFunctions 184   +7 CleanString
+00501a09 +3dd UBX.exe      uTableInfo     478  +49 GetThePot
+00507e90 +03c UBX.exe      uBrain         589   +3 RecordBetting
+005070c6 +412 UBX.exe      uBrain         316 +119 Brain
+0050762b +977 UBX.exe      uBrain         473 +276 Brain
+0050a834 +1bc UBX.exe      uMain          265  +19 TFrmInfo.BtnAttachClick
+004a896f +06f UBX.exe      Controls                TControl.Click
+00491982 +01e UBX.exe      StdCtrls                TCustomButton.Click
+004923f0 +010 UBX.exe      StdCtrls                TCustomButton.CNCommand
+004a8406 +2d2 UBX.exe      Controls                TControl.WndProc
+004ac90b +513 UBX.exe      Controls                TWinControl.WndProc
+00491648 +06c UBX.exe      StdCtrls                TButtonControl.WndProc
+004a8040 +024 UBX.exe      Controls                TControl.Perform
+004aca5b +023 UBX.exe      Controls                DoControlMsg
+004ad457 +00b UBX.exe      Controls                TWinControl.WMCommand
+004c2848 +02c UBX.exe      Forms                   TCustomForm.WMCommand
+004a8406 +2d2 UBX.exe      Controls                TControl.WndProc
+004ac90b +513 UBX.exe      Controls                TWinControl.WndProc
+004bf7b8 +594 UBX.exe      Forms                   TCustomForm.WndProc
+004ac024 +02c UBX.exe      Controls                TWinControl.MainWndProc
+0047bb84 +014 UBX.exe      Classes                 StdWndProc
+75b00b31 +044 USER32.dll                           SendMessageW
+75b00974 +016 USER32.dll                           CallWindowProcW
+004aca07 +0d7 UBX.exe      Controls                TWinControl.DefaultHandler
+004a8d8c +010 UBX.exe      Controls                TControl.WMLButtonUp
+004a8406 +2d2 UBX.exe      Controls                TControl.WndProc
+004ac90b +513 UBX.exe      Controls                TWinControl.WndProc
+00491648 +06c UBX.exe      StdCtrls                TButtonControl.WndProc
+004ac024 +02c UBX.exe      Controls                TWinControl.MainWndProc
+0047bb84 +014 UBX.exe      Classes                 StdWndProc
+75b00226 +00a USER32.dll                           DispatchMessageW
+004c7db9 +11d UBX.exe      Forms                   TApplication.ProcessMessage
+004c7dfe +00a UBX.exe      Forms                   TApplication.HandleMessage
+004c8129 +0c9 UBX.exe      Forms                   TApplication.Run
+0050c14d +051 UBX.exe      UBX             30   +5 initialization
+75bcd0e7 +010 kernel32.dll                         BaseThreadInitThunk
+
+modules:
+00400000 UBX.exe                       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+04650000 idmmkb.dll   5.16.1.0         C:\Program Files\Internet Download Manager
+10000000 Captlib.dll  8.0.0.24         C:\Program Files\Babylon\Babylon-Pro
+6f3f0000 wsock32.dll  6.0.6001.18000   C:\Windows\system32
+71a10000 OLEACC.dll   4.2.5406.0       C:\Windows\system32
+743b0000 uxtheme.dll  6.0.6001.18000   C:\Windows\system32
+744e0000 comctl32.dll 6.10.6002.18005  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6002.18005_none_5cb72f96088b0de0
+748b0000 msimg32.dll  6.0.6000.16386   C:\Windows\system32
+74900000 version.dll  6.0.6002.18005   C:\Windows\system32
+754b0000 Secur32.dll  6.0.6002.18005   C:\Windows\system32
+75620000 comdlg32.dll 6.0.6002.18005   C:\Windows\system32
+756a0000 NSI.dll      6.0.6001.18000   C:\Windows\system32
+756b0000 ADVAPI32.dll 6.0.6002.18005   C:\Windows\system32
+75780000 WS2_32.dll   6.0.6001.18000   C:\Windows\system32
+757b0000 urlmon.dll   8.0.6001.18813   C:\Windows\system32
+758f0000 iertutil.dll 8.0.6001.18813   C:\Windows\system32
+75ae0000 USER32.dll   6.0.6002.18005   C:\Windows\system32
+75b80000 kernel32.dll 6.0.6002.18005   C:\Windows\system32
+75e40000 ole32.dll    6.0.6002.18005   C:\Windows\system32
+75fc0000 SHLWAPI.dll  6.0.6002.18005   C:\Windows\system32
+760b0000 GDI32.dll    6.0.6002.18005   C:\Windows\system32
+76100000 USP10.dll    1.626.6002.18005 C:\Windows\system32
+76180000 oleaut32.dll 6.0.6002.18005   C:\Windows\system32
+76210000 RPCRT4.dll   6.0.6002.18024   C:\Windows\system32
+762e0000 msvcrt.dll   7.0.6002.18005   C:\Windows\system32
+76390000 shell32.dll  6.0.6002.18005   C:\Windows\system32
+76ea0000 MSCTF.dll    6.0.6002.18005   C:\Windows\system32
+76f70000 ntdll.dll    6.0.6002.18005   C:\Windows\system32
+770a0000 IMM32.DLL    6.0.6002.18005   C:\Windows\system32
+770c0000 LPK.DLL      6.0.6002.18051   C:\Windows\system32
+770d0000 Normaliz.dll 6.0.6000.16386   C:\Windows\system32
+770e0000 WININET.dll  8.0.6001.18813   C:\Windows\system32
+
+processes:
+0000 Idle                      0
+0004 System                    0
+01d8 smss.exe                  0 normal       C:\Windows\system32
+0218 csrss.exe                 0 normal       C:\Windows\system32
+0248 wininit.exe               0 high         C:\Windows\system32
+0254 csrss.exe                 1 normal       C:\Windows\system32
+0274 services.exe              0 normal       C:\Windows\system32
+0284 lsass.exe                 0 normal       C:\Windows\system32
+028c lsm.exe                   0 normal       C:\Windows\system32
+02b0 winlogon.exe              1 high         C:\Windows\system32
+033c svchost.exe               0 normal       C:\Windows\system32
+037c PresentationFontCache.exe 0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+03a8 svchost.exe               0 normal       C:\Windows\system32
+03e4 svchost.exe               0 normal       C:\Windows\System32
+0430 Ati2evxx.exe              0 normal       C:\Windows\system32
+0440 svchost.exe               0 normal       C:\Windows\System32
+0460 svchost.exe               0 normal       C:\Windows\System32
+046c svchost.exe               0 normal       C:\Windows\system32
+04bc audiodg.exe               0
+04d0 svchost.exe               0 normal       C:\Windows\system32
+04e0 SLsvc.exe                 0 normal       C:\Windows\system32
+0514 svchost.exe               0 normal       C:\Windows\system32
+0580 svchost.exe               0 normal       C:\Windows\system32
+06a4 sched.exe                 0 normal       C:\Program Files\Avira\AntiVir Desktop
+06b4 Ati2evxx.exe              1 normal       C:\Windows\system32
+06c0 svchost.exe               0 normal       C:\Windows\system32
+076c agrsmsvc.exe              0 normal       C:\Windows\system32
+077c avguard.exe               0 normal       C:\Program Files\Avira\AntiVir Desktop
+0794 CFSvcs.exe                0 normal       C:\Program Files\TOSHIBA\ConfigFree
+00e8 IAANTMon.exe              0 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0140 named.exe                 0 normal       C:\Program Files\Superbahis\Bind\bin
+0398 svchost.exe               0 normal       C:\Windows\system32
+058c svchost.exe               0 normal       C:\Windows\system32
+032c TNaviSrv.exe              0 normal       C:\Program Files\TOSHIBA\TOSHIBA DVD PLAYER
+06ac TODDSrv.exe               0 normal       C:\Windows\system32
+0808 TosCoSrv.exe              0 normal       C:\Program Files\TOSHIBA\Power Saver
+0860 TosBtSrv.exe              0 normal       c:\Program Files\Toshiba\Bluetooth Toshiba Stack
+0870 ULCDRSvr.exe              0 normal       C:\Program Files\Common Files\Ulead Systems\DVD
+0890 svchost.exe               0 normal       C:\Windows\System32
+08a8 wmpnetwk.exe              0 normal       C:\Program Files\Windows Media Player
+08bc SearchIndexer.exe         0 normal       C:\Windows\system32
+0900 YahooAUService.exe        0 normal       C:\Program Files\Yahoo!\SoftwareUpdate
+0ac4 taskeng.exe               0 below normal C:\Windows\system32
+0b74 Dwm.exe                   1 high         C:\Windows\system32
+0b7c taskeng.exe               1 normal       C:\Windows\system32
+0c04 Explorer.EXE              1 normal       C:\Windows
+0d00 KeNotify.exe              1 normal       C:\Program Files\TOSHIBA\Utilities
+0d5c RtHDVCpl.exe              1 normal       C:\Windows
+0d7c TPwrMain.exe              1 normal       C:\Program Files\TOSHIBA\Power Saver
+0da0 SmoothView.exe            1 normal       C:\Program Files\TOSHIBA\SmoothView
+0db4 TCrdMain.exe              1 normal       C:\Program Files\TOSHIBA\FlashCards
+0dc0 NDSTray.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+0de4 MOM.EXE                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+0dec traybar.exe               1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+0e00 SynTPEnh.exe              1 normal       C:\Program Files\Synaptics\SynTP
+0e08 IAAnotif.exe              1 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0e10 gnotify.exe               1 normal       C:\Program Files\Google\Gmail Notifier
+0e18 Babylon.exe               1 normal       C:\Program Files\Babylon\Babylon-Pro
+0e20 MSASCui.exe               1 normal       C:\Program Files\Windows Defender
+0e2c TreadstoneUpdate.exe      1 normal       C:\Program Files\Superbahis\Update
+0e3c jusched.exe               1 normal       C:\Program Files\Java\jre6\bin
+0e48 avgnt.exe                 1 normal       C:\Program Files\Avira\AntiVir Desktop
+0e60 TOSCDSPD.exe              1 normal       C:\Program Files\TOSHIBA\TOSCDSPD
+0e70 daemon.exe                1 normal       C:\Program Files\DAEMON Tools Lite
+0e78 SynToshiba.exe            1 normal       C:\Program Files\Synaptics\SynTP
+0e9c btdna.exe                 1 normal       C:\Program Files\DNA
+0ed0 robotaskbaricon.exe       1 normal       C:\Program Files\Siber Systems\AI RoboForm
+0ef0 IDMan.exe                 1 normal       C:\Program Files\Internet Download Manager
+0f08 ShutdownGuard.exe         1 normal       C:\Program Files\ShutdownGuard
+0f14 wmpnscfg.exe              1 normal       C:\Program Files\Windows Media Player
+055c CEC_MAIN.exe              1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+0aa4 CFSwMgr.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+0d10 CCC.exe                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+05f8 IEMonitor.exe             1 normal       C:\Program Files\Internet Download Manager
+1540 bds.exe                   1 normal       C:\Program Files\CodeGear\RAD Studio\6.0\bin
+0a6c speedfan.exe              1 normal       C:\Program Files\SpeedFan
+174c conime.exe                1 normal       C:\Windows\system32
+11f4 mainclient.exe            1 normal       C:\Poker Application\UltimateBet
+1208 aphh.exe                  1 normal       C:\Poker Application\UltimateBet
+02f8 CSDispatcher.exe          1 normal       C:\Program Files\Raize\CS4\Bin
+105c msnmsgr.exe               1 normal       C:\Program Files\Windows Live\Messenger
+12dc CSLiveViewer.exe          1 normal       C:\Program Files\Raize\CS4\Bin
+10b8 wlcomm.exe                1 normal       C:\Program Files\Windows Live\Contacts
+1738 GoodSync.exe              1 normal       C:\Program Files\Siber Systems\GoodSync
+16f4 UBX.exe                   1 normal       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - Hitachi HTS541616J9SA00
++ Display adapters
+  - ATI Mobility Radeon HD 2600 (driver 8.383.1.1000)
++ DVD/CD-ROM drives
+  - MZG KX6RWHERK SCSI CdRom Device
+  - TSSTcorp CD/DVDW TS-L632D ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) 82801HEM/HBM SATA AHCI Controller (driver 7.0.0.1020)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
++ IEEE 1394 Bus host controllers
+  - Texas Instruments OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.208.424)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Memory technology driver
+  - Texas Instruments PCIxx12 Integrated FlashMedia Controller (driver 2.0.0.7)
++ Mice and other pointing devices
+  - Synaptics PS/2 Port TouchPad (driver 10.0.1.0)
++ Modems
+  - TOSHIBA Software Modem (driver 2.1.77.0)
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Intel(R) Wireless WiFi Link 4965AGN (driver 12.4.0.21)
+  - Realtek RTL8101E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.213.1110.2008)
++ PCMCIA adapters
+  - Texas Instruments PCIxx12 Cardbus Controller
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
+  - Realtek High Definition Audio (driver 6.0.1.5433)
++ Storage controllers
+  - ALHJ4SXC IDE Controller
+  - Microsoft iSCSI Initiator
++ Storage volume shadow copies
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - Bluetooth ACPI (driver 5.0.1023.0)
+  - Consumer IR Devices
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - Extended IO Bus
+  - High Definition Audio Controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 3 - 2843 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 4 - 2845 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - LPC Interface Controller (driver 1.0.50.8)
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express PCI Express Root Port - 2A01 (driver 8.2.0.1000)
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.1)
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ TosSec Class
+  - TOSHIBA tos_sps32 Driver (driver 4.0.2006.1026)
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+disassembling:
+[...]
+0050848c               ecx, ecx
+0050848e               loc_508495
+00508490               edx, [ecx-4]
+00508493               loc_50849a
+00508495               -$103f02 ($404598)     ; System.@BoundErr
+0050849a     >         edx
+0050849b               dx, [ecx+edx*2-2]
+005084a0               -$101aa5 ($406a00)     ; System.@UStrFromWChar
+005084a5               eax, [ebp-$24]
+005084a8               edx, [ebp-$10]
+005084ab               edx, $a
+[...]
+
+date/time         : 2009-08-16, 12:19:35, 869ms
+computer name     : ALAVNA-PC
+user name         : alavna <admin>
+registered owner  : alavna / TOSHIBA
+operating system  : Windows Vista Service Pack 2 build 6002
+system language   : Turkish
+system up time    : 1 day 12 hours
+program up time   : 20 seconds
+processors        : 2x Intel(R) Core(TM)2 Duo CPU T7300 @ 2.00GHz
+physical memory   : 831/2046 MB (free/total)
+free disk space   : (C:) 28,50 GB
+display mode      : 1280x800, 32 bit
+process id        : $16b4
+allocated memory  : 21,25 MB
+executable        : UBX.exe
+exec. date/time   : 2009-08-16 12:19
+compiled with     : Delphi 2009
+madExcept version : 3.0i beta 2
+callstack crc     : $1c4647fb, $02350afb, $02350afb
+exception number  : 1
+exception message : The application seems to be frozen.
+
+main thread ($10d8):
+004be5cd +031 UBX.exe      Forms         TCustomForm.DoCreate
+004be215 +011 UBX.exe      Forms         TCustomForm.AfterConstruction
+00404b9d +01d UBX.exe      System 103 +0 @AfterConstruction
+004be1eb +18f UBX.exe      Forms         TCustomForm.Create
+004c7f9e +076 UBX.exe      Forms         TApplication.CreateForm
+7669d0e7 +010 kernel32.dll               BaseThreadInitThunk
+
+modules:
+00400000 UBX.exe                       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+6ff60000 wsock32.dll  6.0.6001.18000   C:\Windows\system32
+747d0000 uxtheme.dll  6.0.6001.18000   C:\Windows\system32
+748f0000 comctl32.dll 6.10.6002.18005  C:\Windows\WinSxS\x86_microsoft.windows.common-controls_6595b64144ccf1df_6.0.6002.18005_none_5cb72f96088b0de0
+74cc0000 msimg32.dll  6.0.6000.16386   C:\Windows\system32
+74d10000 version.dll  6.0.6002.18005   C:\Windows\system32
+758c0000 Secur32.dll  6.0.6002.18005   C:\Windows\system32
+75ad0000 GDI32.dll    6.0.6002.18005   C:\Windows\system32
+75b20000 shell32.dll  6.0.6002.18005   C:\Windows\system32
+76630000 IMM32.DLL    6.0.6002.18005   C:\Windows\system32
+76650000 kernel32.dll 6.0.6002.18005   C:\Windows\system32
+76760000 USER32.dll   6.0.6002.18005   C:\Windows\system32
+76800000 ADVAPI32.dll 6.0.6002.18005   C:\Windows\system32
+768d0000 comdlg32.dll 6.0.6002.18005   C:\Windows\system32
+76950000 oleaut32.dll 6.0.6002.18005   C:\Windows\system32
+76bd0000 ole32.dll    6.0.6002.18005   C:\Windows\system32
+76f00000 USP10.dll    1.626.6002.18005 C:\Windows\system32
+76f80000 WS2_32.dll   6.0.6001.18000   C:\Windows\system32
+771e0000 RPCRT4.dll   6.0.6002.18024   C:\Windows\system32
+772b0000 MSCTF.dll    6.0.6002.18005   C:\Windows\system32
+77380000 ntdll.dll    6.0.6002.18005   C:\Windows\system32
+774b0000 NSI.dll      6.0.6001.18000   C:\Windows\system32
+774c0000 SHLWAPI.dll  6.0.6002.18005   C:\Windows\system32
+77520000 LPK.DLL      6.0.6002.18051   C:\Windows\system32
+77530000 msvcrt.dll   7.0.6002.18005   C:\Windows\system32
+
+processes:
+0000 Idle                      0
+0004 System                    0
+01d8 smss.exe                  0 normal       C:\Windows\system32
+025c csrss.exe                 0 normal       C:\Windows\system32
+0290 wininit.exe               0 high         C:\Windows\system32
+029c csrss.exe                 1 normal       C:\Windows\system32
+02bc services.exe              0 normal       C:\Windows\system32
+02c8 lsass.exe                 0 normal       C:\Windows\system32
+02d0 lsm.exe                   0 normal       C:\Windows\system32
+02fc winlogon.exe              1 high         C:\Windows\system32
+03a0 svchost.exe               0 normal       C:\Windows\system32
+03e4 PresentationFontCache.exe 0 normal       C:\Windows\Microsoft.Net\Framework\v3.0\WPF
+0410 svchost.exe               0 normal       C:\Windows\system32
+0444 svchost.exe               0 normal       C:\Windows\System32
+0494 Ati2evxx.exe              0 normal       C:\Windows\system32
+04a0 svchost.exe               0 normal       C:\Windows\System32
+04c0 svchost.exe               0 normal       C:\Windows\System32
+04f0 svchost.exe               0 normal       C:\Windows\system32
+054c audiodg.exe               0
+0564 svchost.exe               0 normal       C:\Windows\system32
+057c SLsvc.exe                 0 normal       C:\Windows\system32
+05a4 svchost.exe               0 normal       C:\Windows\system32
+060c Ati2evxx.exe              1 normal       C:\Windows\system32
+0690 svchost.exe               0 normal       C:\Windows\system32
+0734 sched.exe                 0 normal       C:\Program Files\Avira\AntiVir Desktop
+0740 svchost.exe               0 normal       C:\Windows\system32
+07c4 agrsmsvc.exe              0 normal       C:\Windows\system32
+07e0 avguard.exe               0 normal       C:\Program Files\Avira\AntiVir Desktop
+07ec CFSvcs.exe                0 normal       C:\Program Files\TOSHIBA\ConfigFree
+0158 IAANTMon.exe              0 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0238 named.exe                 0 normal       C:\Program Files\Superbahis\Bind\bin
+04ec svchost.exe               0 normal       C:\Windows\system32
+0618 svchost.exe               0 normal       C:\Windows\system32
+0770 TNaviSrv.exe              0 normal       C:\Program Files\TOSHIBA\TOSHIBA DVD PLAYER
+048c TODDSrv.exe               0 normal       C:\Windows\system32
+0810 TosCoSrv.exe              0 normal       C:\Program Files\TOSHIBA\Power Saver
+0870 TosBtSrv.exe              0 normal       c:\Program Files\Toshiba\Bluetooth Toshiba Stack
+08b4 ULCDRSvr.exe              0 normal       C:\Program Files\Common Files\Ulead Systems\DVD
+08c8 svchost.exe               0 normal       C:\Windows\System32
+08dc wmpnetwk.exe              0 normal       C:\Program Files\Windows Media Player
+0900 SearchIndexer.exe         0 normal       C:\Windows\system32
+092c YahooAUService.exe        0 normal       C:\Program Files\Yahoo!\SoftwareUpdate
+0b7c taskeng.exe               0 below normal C:\Windows\system32
+0c30 Dwm.exe                   1 high         C:\Windows\system32
+0c48 taskeng.exe               1 normal       C:\Windows\system32
+0d74 KeNotify.exe              1 normal       C:\Program Files\TOSHIBA\Utilities
+0d94 RtHDVCpl.exe              1 normal       C:\Windows
+0de8 TPwrMain.exe              1 normal       C:\Program Files\TOSHIBA\Power Saver
+0e04 SmoothView.exe            1 normal       C:\Program Files\TOSHIBA\SmoothView
+0e78 TCrdMain.exe              1 normal       C:\Program Files\TOSHIBA\FlashCards
+0e80 NDSTray.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+0ec4 MOM.EXE                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+0ecc traybar.exe               1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+0ed4 SynTPEnh.exe              1 normal       C:\Program Files\Synaptics\SynTP
+0edc IAAnotif.exe              1 normal       C:\Program Files\Intel\Intel Matrix Storage Manager
+0eec Babylon.exe               1 normal       C:\Program Files\Babylon\Babylon-Pro
+0ef4 MSASCui.exe               1 normal       C:\Program Files\Windows Defender
+0f08 TreadstoneUpdate.exe      1 normal       C:\Program Files\Superbahis\Update
+0f28 SynToshiba.exe            1 normal       C:\Program Files\Synaptics\SynTP
+0f94 jusched.exe               1 normal       C:\Program Files\Java\jre6\bin
+0fe0 avgnt.exe                 1 normal       C:\Program Files\Avira\AntiVir Desktop
+0fe8 CEC_MAIN.exe              1 normal       C:\Program Files\Camera Assistant Software for Toshiba
+0394 TOSCDSPD.exe              1 normal       C:\Program Files\TOSHIBA\TOSCDSPD
+0918 daemon.exe                1 normal       C:\Program Files\DAEMON Tools Lite
+05f4 btdna.exe                 1 normal       C:\Program Files\DNA
+0328 IDMan.exe                 1 normal       C:\Program Files\Internet Download Manager
+0b4c xmarkssync.exe            1 normal       C:\Program Files\Xmarks\IE Extension
+0628 ShutdownGuard.exe         1 normal       C:\Program Files\ShutdownGuard
+02b8 wmpnscfg.exe              1 normal       C:\Program Files\Windows Media Player
+0de4 CFSwMgr.exe               1 normal       C:\Program Files\TOSHIBA\ConfigFree
+0460 IEMonitor.exe             1 normal       C:\Program Files\Internet Download Manager
+0b38 CCC.exe                   1 normal       C:\Program Files\ATI Technologies\ATI.ACE\Core-Static
+14b8 explorer.exe              1 normal       C:\Windows
+0968 firefox.exe               1 normal       C:\Program Files\Mozilla Firefox
+0d1c GoodSync.exe              1 normal       C:\Program Files\Siber Systems\GoodSync
+0df8 conime.exe                1 normal       C:\Windows\system32
+1320 mobsync.exe               1 normal       C:\Windows\System32
+15e0 bds.exe                   1 normal       C:\Program Files\CodeGear\RAD Studio\6.0\bin
+0488 CSDispatcher.exe          1 normal       C:\Program Files\Raize\CS4\Bin
+1788 gnotify.exe               1 normal       C:\Program Files\Google\Gmail Notifier
+15a4 ultimatebetclonee.exe     1 normal       C:\Users\alavna\Documents\RAD Studio\Projects
+1430 CSLiveViewer.exe          1 normal       C:\Program Files\Raize\CS4\Bin
+16b4 UBX.exe                   1 normal       C:\Users\alavna\Documents\RAD Studio\Projects\UBX
+0c28 SearchProtocolHost.exe    0 idle         C:\Windows\system32
+00f4 SearchFilterHost.exe      0 idle         C:\Windows\system32
+
+hardware:
++ Batteries
+  - Microsoft AC Adapter
+  - Microsoft ACPI-Compliant Control Method Battery
++ Computer
+  - ACPI x86-based PC
++ Disk drives
+  - Hitachi HTS541616J9SA00
++ Display adapters
+  - ATI Mobility Radeon HD 2600 (driver 8.383.1.1000)
++ DVD/CD-ROM drives
+  - MZG KX6RWHERK SCSI CdRom Device
+  - TSSTcorp CD/DVDW TS-L632D ATA Device
++ IDE ATA/ATAPI controllers
+  - IDE Channel
+  - IDE Channel
+  - Intel(R) 82801HEM/HBM SATA AHCI Controller (driver 7.0.0.1020)
+  - Intel(R) ICH8M Ultra ATA Storage Controllers - 2850
++ IEEE 1394 Bus host controllers
+  - Texas Instruments OHCI Compliant IEEE 1394 Host Controller
++ Imaging devices
+  - Chicony USB 2.0 Camera (driver 6.2.208.424)
++ Keyboards
+  - Standard PS/2 Keyboard
++ Memory technology driver
+  - Texas Instruments PCIxx12 Integrated FlashMedia Controller (driver 2.0.0.7)
++ Mice and other pointing devices
+  - Synaptics PS/2 Port TouchPad (driver 10.0.1.0)
++ Modems
+  - TOSHIBA Software Modem (driver 2.1.77.0)
++ Monitors
+  - Generic PnP Monitor
++ Network adapters
+  - Intel(R) Wireless WiFi Link 4965AGN (driver 12.4.0.21)
+  - Realtek RTL8101E Family PCI-E Fast Ethernet NIC (NDIS 6.0) (driver 6.213.1110.2008)
++ PCMCIA adapters
+  - Texas Instruments PCIxx12 Cardbus Controller
++ Processors
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
+  - Intel(R) Core(TM)2 Duo CPU     T7300  @ 2.00GHz
++ SD host adapters
+  - SDA Standard Compliant SD Host Controller
++ Sound, video and game controllers
+  - High Definition Audio Device
+  - Realtek High Definition Audio (driver 6.0.1.5433)
++ Storage controllers
+  - AEJUVXSM IDE Controller
+  - Microsoft iSCSI Initiator
++ Storage volume shadow copies
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
+  - Generic volume shadow copy
++ System devices
+  - ACPI Fixed Feature Button
+  - ACPI Lid
+  - ACPI Power Button
+  - Bluetooth ACPI (driver 5.0.1023.0)
+  - Consumer IR Devices
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct Application Launch Button
+  - Direct memory access controller
+  - Extended IO Bus
+  - High Definition Audio Controller
+  - High Definition Audio Controller
+  - High precision event timer
+  - Intel(R) 82801 PCI Bridge - 2448
+  - Intel(R) 82802 Firmware Hub Device
+  - Intel(R) ICH8 Family PCI Express Root Port 1 - 283F (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 2 - 2841 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 3 - 2843 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 4 - 2845 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family PCI Express Root Port 5 - 2847 (driver 8.3.0.1013)
+  - Intel(R) ICH8 Family SMBus Controller - 283E
+  - LPC Interface Controller (driver 1.0.50.8)
+  - Microsoft ACPI-Compliant Embedded Controller
+  - Microsoft ACPI-Compliant System
+  - Microsoft Composite Battery
+  - Microsoft System Management BIOS Driver
+  - Mobile Intel(R) PM965/GM965/GL960 Express PCI Express Root Port - 2A01 (driver 8.2.0.1000)
+  - Mobile Intel(R) PM965/GM965/GL960 Express Processor to DRAM Controller - 2A00  (driver 8.2.0.1000)
+  - Motherboard resources
+  - Motherboard resources
+  - Numeric data processor
+  - PCI bus
+  - Plug and Play Software Device Enumerator
+  - Programmable interrupt controller
+  - System CMOS/real time clock
+  - System timer
+  - Terminal Server Keyboard Driver
+  - Terminal Server Mouse Driver
+  - TOSHIBA x86 ACPI-Compliant Value Added Logical and General Purpose Device (driver 2.0.0.1)
+  - UMBus Root Bus Enumerator
+  - Volume Manager
++ TosSec Class
+  - TOSHIBA tos_sps32 Driver (driver 4.0.2006.1026)
++ Universal Serial Bus controllers
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2830
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2831
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2832
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2834
+  - Intel(R) ICH8 Family USB Universal Host Controller - 2835
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 2836
+  - Intel(R) ICH8 Family USB2 Enhanced Host Controller - 283A
+  - USB Composite Device
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+  - USB Root Hub
+
+disassembling:
+[...]
+00404b8d               $404baf                ; System.@HandleAnyException
+00404b92               dword ptr fs:[edx]
+00404b95               fs:[edx], esp
+00404b98               eax, [ebp-4]
+00404b9b               edx, [eax]
+00404b9d     >         dword ptr [edx-$1c]
+00404ba0               eax, [ebp-4]
+00404ba3               dword ptr fs:[0]
+00404baa               esp, 8
+00404bad               loc_404bc8
+00404baf               +$184 ($404d38)        ; System.@HandleAnyException
+[...]
+
